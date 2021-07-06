@@ -5,4 +5,4 @@ const phoneBookSchema = mongoose.Schema({
     lastname: String,
     phoneNumber: String
 });
-module.exports = mongoose.model('phone_book', phoneBookSchema);
+module.exports = mongoose.model('phone_books', phoneBookSchema);
